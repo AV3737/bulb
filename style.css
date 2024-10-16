@@ -1,0 +1,36 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,body{
+  height: 100%;
+  width: 100%;
+}
+#bulb{
+  background-color: yellow;
+border-radius: 50%;
+  height: 300px;
+  width: 300px;
+  border: 1px solid black;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-50%);
+}
+#on{
+  background-color: yellow;
+  color: black;
+  position: absolute;
+  left: 50%;
+  top: 85%;
+  border: 0;
+  height: 30px;
+  width: 70px;
+  cursor: pointer;
+  border-radius: 2px;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: small;
+  
+
+}
